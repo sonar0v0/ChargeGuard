@@ -1,0 +1,20 @@
+# Build output
+dist/
+*.exe
+*.pdb
+*.zip
+
+# Local runtime data: never commit
+config.ini
+*.log
+*.log.old
+
+# IDE / OS
+.vs/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+
+# Local secrets
+.env
